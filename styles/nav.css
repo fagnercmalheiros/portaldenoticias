@@ -2,6 +2,11 @@
     display: flex;
     gap: 16px;
 }
+
+.fora{
+    align-content: end;
+}
+
 .noticias5{
     background-image: url(../assets/images/Image06.png);
     background-size:cover;

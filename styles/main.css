@@ -23,7 +23,37 @@ p{
      
 }
 
+.destaques2{
+    
+    gap: 8px;
+    
+    width: 800px;
+    height: 700px;
+    padding-block: 24px;
+    
+    font-size: bold;
+    color: var(--text-color-primary);
+     
+}
+
+.flex{
+    display: flex;
+}
+
 .noticias{
+
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    list-style: none;
+    gap: 8px;
+    
+    font-size: bold;
+    color: var(--text-color-primary);
+}
+
+.noticiasseg{
 
     display: flex; 
     flex-wrap: wrap; 

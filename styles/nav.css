@@ -1,0 +1,33 @@
+.maislidas{
+    display: flex;
+    gap: 16px;
+}
+.noticias5{
+    background-image: url(../assets/images/Image06.png);
+    background-size:cover;
+    width: 288px;
+    height: 200px;
+    padding-block: 24px;
+}
+
+.noticias6{
+    background-image: url(../assets/images/Image07.png);
+    background-size:cover;
+    width: 288px;
+    height: 200px;
+    padding-block: 24px;
+}
+.noticias7{
+    background-image: url(../assets/images/Image08.png);
+    background-size:cover;
+    width: 288px;
+    height: 200px;
+    padding-block: 24px;
+}
+.noticias8{
+    background-image: url(../assets/images/Image09.png);
+    background-size:cover;
+    width: 288px;
+    height: 200px;
+    padding-block: 24px;
+}

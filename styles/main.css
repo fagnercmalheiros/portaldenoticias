@@ -1,43 +1,82 @@
 main{
     padding: 40px 40px 32px 32px;
+    list-style: none;
+    display: flex; 
+    align-items:end;
+} 
+
+
+.destaques{
+    
+    gap: 8px;
+    
+    width: 560px;
+    height: 416px;
+    padding-block: 24px;
+    background-image: url(../assets/images/Image01.png);
+    background-size:cover;
+    
+    font-size: bold;
+    color: var(--text-color-primary);
+    
 }
 
-h2{
+.noticias{
+
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    list-style: none;
+    align-items:end;
+    gap: 8px;
+    
+    font-size: bold;
+    color: var(--text-color-primary);
+}
+
+.flex-item {
+  width: 48%; 
+  margin: 1%; 
+  text-align: center;
+  padding: 20px;
+}
+
+.noticias1{
+    background-image: url(../assets/images/Image02.png);
+    background-size:cover;
+    width: 288px;
+    height: 200px;
+    padding-block: 24px;
+}
+
+.noticias2{
+    background-image: url(../assets/images/Image03.png);
+    background-size:cover;
+    width: 288px;
+    height: 200px;
+    padding-block: 24px;
+}
+.noticias3{
+    background-image: url(../assets/images/Image04.png);
+    background-size:cover;
+    width: 288px;
+    height: 200px;
+    padding-block: 24px;
+}
+.noticias4{
+    background-image: url(../assets/images/Image05.png);
+    background-size:cover;
+    width: 288px;
+    height: 200px;
+    padding-block: 24px;
+}
+
+    h2{
     background-color: var(--brand-color-dark);
     color: var(--text-color-primary);
     padding: 4px 8px 4px 8px;
     border-radius: 5px;
     align-self: center;
-}
-
-.destaques{
-    
-    display: table-column;
-    align-items:end;
-    gap: 8px;
-    
-    width: 560px;
-    height: 416px;
-    padding-block: 24px;
-    background-image: url(../assets/images/Image01.png);
-    background-size:cover;
-    
-    font-size: bold;
-    color: var(--text-color-primary);
-}
-
-.noticias{
-    
-    display: table-column;
-    align-items:end;
-    gap: 8px;
-    
-    width: 560px;
-    height: 416px;
-    padding-block: 24px;
-    background-image: url(../assets/images/Image01.png);
-    background-size:cover;
-    
-    font-size: bold;
-    color: var(--text-color-primary);
-}
+    width: 35%;
+    }
